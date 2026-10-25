@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+.pytest_cache/
+.ruff_cache/
+sage_dump.txt
+.DS_Store
+git check-ignore -v server/tests/test_auth.py
+
+*.tsbuildinfo
